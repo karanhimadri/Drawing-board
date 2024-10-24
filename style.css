@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+canvas {
+  position: relative;
+  border: 2px solid black;
+  display: block;
+}
+.colors {
+  display: flex;
+  width: 230px;
+  flex-wrap: wrap;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border: 2px solid black;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: bisque;
+}
+.colors #yellow {
+  color: black;
+  border: 2px solid black;
+  font-size: 10px;
+}
+.colr {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid white;
+  cursor: pointer;
+  margin-right: 4px;
+}
+.lineWidth {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.lineWidth input {
+  width: 120px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+.lineWidth button {
+  width: 40px;
+  margin-left: 3px;
+}
+.lineWidth #btn {
+  border-radius: 3px;
+  border: 1px solid black;
+  padding: 5px;
+  cursor: pointer;
+}
+.lineWidth #width {
+  border: none;
+  background-color: bisque;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Left-Click Drawing</title>
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+  </head>
+  <body>
+    <canvas id="drawingCanvas"></canvas>
+    <div class="colors">
+      <button style="background-color: red" id="red" class="colr"></button>
+      <button style="background-color: blue" id="blue" class="colr"></button>
+      <button style="background-color: white" id="yellow" class="colr">
+        erase
+      </button>
+      <button
+        style="background-color: purple"
+        id="purple"
+        class="colr"
+      ></button>
+      <button style="background-color: green" id="green" class="colr"></button>
+      <div class="lineWidth">
+        <input type="number" placeholder="Enter line width " id="input" />
+        <button id="btn">set</button>
+        <button id="width">1</button>
+      </div>
+    </div>
+    <footer>Designed by Himadri Karan 2024 TECB</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
